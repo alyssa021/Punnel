@@ -3,5 +3,5 @@ Fetches magnets of torrents
 
 Usage
 ```
-$ node main.js hello
+$ node main.js keyword
 ```
