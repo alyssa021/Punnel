@@ -36,8 +36,15 @@ function extract(html){
 
 async function main(){
   let keyword = getKeyword();
-  let html = await getHTML(keyword);
-  let compiledStuff = extract(html);
+
+  if(keyword == ""){
+
+    console.log("Please provide search keyword");
+  } else {
+
+    let html = await getHTML(keyword);
+    let compiledStuff = extract(html);
+  }
 }
 
 // Calling Main (Haha! just a habit)
