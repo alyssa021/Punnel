@@ -1,5 +1,5 @@
 # Punnel
-Fetches magnets of torrents
+Fetches magnet links of torrents
 
 Usage
 ```
